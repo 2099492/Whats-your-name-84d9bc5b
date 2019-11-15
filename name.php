@@ -1,13 +1,10 @@
 <?php
-readline() . PHP_EOL;
+echo "Wat is je voornaam?" . PHP_EOL;
 
-$voornaam = ("Laurens");
-echo $voornaam . PHP_EOL;
+$voornaam = readline();
 
-readline() . PHP_EOL;
+echo "Wat is je achternaam?" . PHP_EOL;
+$achternaam = readline();
 
-$achternaam = (" van der Bilt");
-echo $achternaam . PHP_EOL;
-
- readline("jouw naam is:" . $voornaam . $achternaam ) . PHP_EOL;
+echo "Jouw naam is:" . $voornaam . $achternaam;
  ?>
